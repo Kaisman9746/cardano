@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Subsidy Transparency DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 Subsidy Transparency DApp</h1>
+
+    <button id="connect">🔗 Connect Wallet</button>
+
+    <div class="card">
+      <h2>🏛️ Government: Lock Subsidy</h2>
+      <input id="farmer" placeholder="Farmer address" />
+      <input id="amount" type="number" placeholder="Amount (ADA)" />
+      <button id="lockSubsidy">Lock Subsidy</button>
+    </div>
+
+    <div class="card">
+      <h2>🚜 Farmer: Claim Subsidy</h2>
+      <button id="claimSubsidy">Claim</button>
+    </div>
+
+    <div class="card danger">
+      <h2>🚨 Government: Report Fraud</h2>
+      <button id="reportFraud">Report Fraud</button>
+    </div>
+
+    <pre id="log"></pre>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
 
