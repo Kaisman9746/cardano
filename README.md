@@ -1,2 +1,2 @@
 # cardano
-this contain my end smart end to end smart contract dapps
+this contain my end to end smart contract dapps
